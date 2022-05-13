@@ -1,0 +1,109 @@
+.productos-container {
+    max-width: 1136px;
+    margin: 64px auto 64px auto;
+}
+
+.productos-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1136px;
+    margin: 0 16px 16px 16px;
+}
+
+.productos-top-titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.productos-top-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productos-top-link-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a7ae4;
+    margin: 0 8px;
+}
+
+.productos-top-link-img {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+}
+
+.productos-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 4px;
+    list-style-type:none;
+}
+
+
+.productos-list-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 4px 0 0;
+}
+
+.productos-list-item-final {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.productos-list-item-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 176px;
+    height: 174px;
+    margin: 8px 0 0 0;
+}
+.productos-list-item-img:hover {
+    opacity:0.4;
+}
+.productos-list-item-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    align-self: stretch;
+    margin: 8px 0 0 0;
+}
+
+.productos-list-item-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    align-self: stretch;
+    margin: 8px 0 0 0;
+}
+
+.productos-list-item-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a7ae4;
+    margin: 8px 0 0 0;
+}
+
+.productos-list-item-link:hover {
+    text-decoration: underline;
+}

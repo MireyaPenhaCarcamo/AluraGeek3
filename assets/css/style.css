@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto 96px auto;
+    max-width: 1440px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: #f5f5f5;
+}
+/*imagenes decoración...*/
+
+ 
+
+
+.productos-list-item-img:hover {
+    opacity:0.4;
+}
+
+
+/* AJUSTES DE PANTALLA PARA NAV Y BANNER*/
+
+@media (max-width: 1120px) {
+    .header-nav-sub-section {
+        justify-content: space-between;
+    }
+
+    .header-nav-search-bar {
+        display: block;
+        width: 100%;
+        margin: 0 20px;
+        order: 2;
+    }
+    .header-nav-button-login {
+        order: 1;
+    }
+    .banner-titulo {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .banner-texto {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 384px) {
+    .banner-titulo {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .banner-texto {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/* CSS AJUSTE DE ITEMS LISTA DE PRODUTOS */
+
+@media (max-width: 1144px) {
+    .produtos-list-item3 {
+        display: none;
+    }
+}
+
+@media (max-width: 784px) {
+    .produtos-list-item2 {
+        display: none;
+    }
+}
+
+/* AJUSTES DE PANTALLA PARA  TABLET FORM*/
+
+@media (max-width: 874px) {
+    .form-top-section {
+        padding: 32px;
+    }
+    .form-sub-section {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        grid-template-rows: 50px 250px;
+        grid-auto-columns: 100px;
+        grid-auto-flow: column;
+    }
+}
+
+/* AJUSTES DE PANTALLA PARA CELULAR FORM*/
+
+@media (max-width: 559px) {
+    .form-top-section {
+      /*  padding: 16px;*/
+      padding:9px;
+      margin-top:5px;
+        
+    }
+    .form-sub-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-logo-section {
+        margin: 0;
+    }
+    .form-links-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0;
+    }
+    .form-contato {
+        margin: 0;
+        flex-grow: 5;
+        
+    }
+    .footer-container{
+        display:none;
+    }
+
+    
+}

@@ -1,0 +1,59 @@
+.producto-section{
+    padding:64px;
+    display:flex;
+    flex-direction:row;
+}
+
+.producto-section-img{
+    
+    height: 403px;
+     width: 560px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+.producto-section-informacion{
+    height: 61px;
+    width: 560px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display:block;
+    padding:20px;
+    text-align:justify;
+}
+
+.producto-section-informacion-title{
+font-family: Raleway;
+font-size: 52px;
+font-weight: 500;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.producto-section-informacion-price{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+      
+}
+
+.producto-section-informacion-content{
+    height: 114px;
+    width: 560px;
+    left: 0px;
+    top: 96px;
+    border-radius: 0px;
+    
+     
+}
+.division{
+    margin:20px;
+    padding:20px;
+}
